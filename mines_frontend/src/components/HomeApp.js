@@ -4,6 +4,8 @@ import { Redirect } from 'react-router'
 
 import axios from 'axios';
 
+import apiServer from './Config';
+
 export default class HomeApp extends React.Component {
 
   constructor(props) {
@@ -51,7 +53,7 @@ export default class HomeApp extends React.Component {
       width: width,
       nMinesAll: nMinesAll
     };
-    const postUrl = 'http://v.com:8000/api/game/new';
+    const postUrl = `${apiServer}/api/game/new`;
     console.log(postUrl);
     console.log(postBody);
     axios.post(postUrl, postBody)

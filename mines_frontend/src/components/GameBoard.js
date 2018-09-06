@@ -3,9 +3,7 @@ import axios from 'axios'
 
 import GameBrick from './GameBrick';
 import GameHeader from './GameHeader';
-
-// TODO fix to dev/prod
-const apiServer = 'http://v.com:8000'
+import apiServer from './Config';
 
 /*
 const gameStatusMap = {
