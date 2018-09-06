@@ -1,2 +1,5 @@
 
-export default const apiServer = 'http://www.ottocho.net';
+const apiServer = 'http://www.ottocho.net';
+export default apiServer;
+
+
