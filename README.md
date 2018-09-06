@@ -1,6 +1,5 @@
 # minesweeper :)
 
-
 ## what is this
 
 This is a game of minesweeper for react and Django challange.
@@ -82,29 +81,34 @@ The application struction:
 
 ```
            +-------------+
-           |             |
            |    nginx    |
-           |             |
            +-------------+
---------------------------------------
                   |
                   v
            +------+------+
-           |             |
-           |     SPA     |   reactjs
-           |             |
+           |     SPA     |   reactjs app
            +---+-----+---+
                |     ^
                | API |
                v     |
            +---+-----+---+
-           |             |
-           |   Backend   |   django
-           |             |
+           |   Backend   |   django app
            +-------------+
 
 ```
 
+The directory structure:
+
+```
+mines/
+├── mines_frontend      frontent view: react project
+├── mines_api           backend server: django app
+├── mines_backend       backend server: django project
+├── logs
+├── manage.py
+├── mines.jpg
+└── README.md
+```
 
 
 ## TODO
