@@ -101,7 +101,7 @@ The directory structure:
 
 ```
 mines/
-├── mines_frontend      frontent view: react project
+├── mines_frontend      frontend view: react project
 ├── mines_api           backend server: django app
 ├── mines_backend       backend server: django project
 ├── logs
@@ -113,7 +113,7 @@ mines/
 
 ## TODO
 
-1. support login/auth/session/csrf/etc.
+1. support login/https/auth/session/csrf/etc.
 2. support multiple users to play
 
 
