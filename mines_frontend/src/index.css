@@ -1,0 +1,53 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  padding: 0;
+}
+
+.game-header {
+  margin: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #10A0FF;
+}
+
+.game-brick-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-brick{
+  background: #FFF;
+  border: 1px solid #EEE;
+  line-height: 28px;
+  height: 28px;
+  width: 28px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  float: left;
+}
+
+.game-brick:focus {
+  outline: none;
+}
+
+.not-dug {
+  color: #fff;
+  background-color: #00da5f;
+  border-color: #F3F3F3;
+}
+
+.is-flagged {
+}
+
+.is-mine {
+}
+
