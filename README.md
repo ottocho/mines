@@ -4,13 +4,13 @@
 
 This is a game of minesweeper for react and Django challange.
 
-online demo: [http://www.ottocho.net/](http://www.ottocho.net/)
+online demo: [https://mines.pytre.com](https://mines.pytre.com)
 
-![ScreenShot](mines.jpg)
-
+| ScreenShot |
+| ------------------------ |
+| ![ScreenShot](mines.jpg) |
 
 ## deployment
-
 
 This project now is only tested on Debian 9.5 with Python 3.7 and node 8.8 .
 
@@ -115,7 +115,8 @@ mines/
 
 1. support login/https/auth/session/csrf/etc.
 2. support multiple users to play
-
+3. react app eject
+4. upgrade packages
 
 
 
